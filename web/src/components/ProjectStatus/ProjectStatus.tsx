@@ -1,8 +1,6 @@
 import { Project } from 'types/graphql'
 
 import { useAuth } from 'src/auth'
-import { planningStatusColor } from 'src/planningStatus'
-import { projectStatusColor } from 'src/projectStatus'
 
 import Badge from '../Badge/Badge'
 
@@ -15,10 +13,8 @@ const ProjectStatus = ({
 
   return (
     <>
-      <Badge {...projectStatusColor(project.projectStatus.name)} />
-      {hasRole(['Admin', 'Business manager']) && (
-        <Badge {...planningStatusColor(project.planningStatus.name)} />
-      )}
+      <Badge />
+      {hasRole(['Admin', 'Business manager']) && <Badge />}
     </>
   )
 }

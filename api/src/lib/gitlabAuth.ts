@@ -46,10 +46,10 @@ export class GitlabAuth {
     this.clientId = clientId
     this.redirectUri = redirectUri
     this.configuration = new AuthorizationServiceConfiguration({
-      authorization_endpoint: new URL('/oauth/authorize', authority).toString(),
-      token_endpoint: new URL('/oauth/token', authority).toString(),
-      revocation_endpoint: new URL('/oauth/revoke', authority).toString(),
-      userinfo_endpoint: new URL('/oauth/userinfo', authority).toString(),
+      authorization_endpoint: new URL('http://localhost:3000/oauth/authorize', authority).toString(),
+      token_endpoint: new URL('http://localhost:3000/oauth/token', authority).toString(),
+      revocation_endpoint: new URL('http://localhost:3000/oauth/revoke', authority).toString(),
+      userinfo_endpoint: new URL('http://localhost:3000/oauth/userinfo', authority).toString(),
     })
 
     this.notifier = new AuthorizationNotifier()
