@@ -1,4 +1,4 @@
-import { render } from '@redwoodjs/testing/web'
+import { render } from '@cedarjs/testing/web'
 
 import ProjectStatus from './ProjectStatus'
 import { standard } from './ProjectStatus.mock'

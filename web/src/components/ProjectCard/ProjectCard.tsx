@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion'
 import type { Project } from 'types/graphql'
 
-import { Link, routes } from '@redwoodjs/router'
+import { Link, routes } from '@cedarjs/router'
 
 import Card from '../Card/Card'
 import ProjectStatus from '../ProjectStatus/ProjectStatus'

@@ -1,6 +1,6 @@
 import { GitlabAuth } from 'api/src/lib/gitlabAuth'
 
-import { createAuthentication } from '@redwoodjs/auth'
+import { createAuthentication } from '@cedarjs/auth'
 
 const clientId = process.env.GITLAB_CLIENT_ID
 const redirectUri = process.env.GITLAB_REDIRECT_URI

@@ -12,7 +12,7 @@
     "@faker-js/faker": "9.6.0"
   },
   "eslintConfig": {
-    "extends": "@redwoodjs/eslint-config",
+    "extends": "@cedarjs/eslint-config",
     "root": true
   },
   "engines": {

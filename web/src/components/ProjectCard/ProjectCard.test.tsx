@@ -1,4 +1,4 @@
-import { render, waitFor } from '@redwoodjs/testing/web'
+import { render, waitFor } from '@cedarjs/testing/web'
 
 import ProjectCard from './ProjectCard'
 import { standard } from './ProjectCard.mock'
