@@ -7,9 +7,9 @@
     ]
   },
   "devDependencies": {
-    "@faker-js/faker": "9.6.0",
-    "@redwoodjs/core": "8.6.0",
-    "@redwoodjs/project-config": "8.6.0"
+    "@cedarjs/core": "0.5.0",
+    "@cedarjs/project-config": "0.5.0",
+    "@faker-js/faker": "9.6.0"
   },
   "eslintConfig": {
     "extends": "@redwoodjs/eslint-config",
